@@ -1,8 +1,10 @@
 #pragma once
-#include "raylib.h"
+#include "Proyectile.h"
 
 struct Ship
 {
+
+	float rateoffire;
 	float length;
 	float width;
 	float speed;
@@ -12,3 +14,6 @@ struct Ship
 	Vector2 size;
 
 };
+
+void CreatePlayerShip(int swidth, int sheight);
+

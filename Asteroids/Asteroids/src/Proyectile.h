@@ -1,11 +1,11 @@
 #pragma once
+#include "raylib.h"
 
-struct Ship
+struct Projectile
 {
 
-	int length;
-	int width;
+	Vector2 size;
+	Vector2 position;
 	int speed;
-	int rateoffire;
 
 };

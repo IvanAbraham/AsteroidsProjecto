@@ -1,4 +1,5 @@
 #include "raylib.h"
+#include "Ship.h"
 
 void InitWindow(int Width, int Height)
 {
@@ -11,9 +12,19 @@ void InitWindow(int Width, int Height)
 void StartGame()
 {
 
-	int screenWidth = 150;
-	int screenHeight = 80;
+	int screenWidth = 800;
+	int screenHeight = 450;
 
 	InitWindow(screenWidth, screenHeight);
+
+	CreatePlayerShip( screenWidth, screenHeight );
+
+	while (!WindowShouldClose())
+	{
+
+		BeginDrawing();
+
+		EndDrawing();
+	}
 
 }
