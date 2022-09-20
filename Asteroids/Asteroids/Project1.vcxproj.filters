@@ -5,39 +5,46 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Archivos de cabecera">
-      <UniqueIdentifier>{9254a46d-47d0-4617-b162-82857d37d239}</UniqueIdentifier>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f55c1e83-f21f-4c9e-b224-fe9ca3542036}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Archivos de origen">
-      <UniqueIdentifier>{fc3a9637-b581-4959-945b-bd4f4dd4f4fc}</UniqueIdentifier>
+    <Filter Include="Game\Proyectile">
+      <UniqueIdentifier>{2f129b0c-042a-4669-97cd-c4fc69b2e028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Asteroid">
+      <UniqueIdentifier>{846f0a08-08b3-413c-888c-dacae67f2320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Ship">
+      <UniqueIdentifier>{cb20af1b-0e38-409d-acbf-5e4ba111b078}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Archivos de origen</Filter>
+    <ClCompile Include="src\Asteroid.cpp">
+      <Filter>Game\Asteroid</Filter>
     </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>Archivos de origen</Filter>
+    <ClCompile Include="src\Ship.cpp">
+      <Filter>Game\Ship</Filter>
     </ClCompile>
-    <ClCompile Include="Asteroid.cpp">
-      <Filter>Archivos de origen</Filter>
+    <ClCompile Include="src\Proyectile.cpp">
+      <Filter>Game\Proyectile</Filter>
     </ClCompile>
-    <ClCompile Include="Ship.cpp">
-      <Filter>Archivos de origen</Filter>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Game</Filter>
     </ClCompile>
-    <ClCompile Include="Proyectile.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
+    <ClCompile Include="src\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Ship.h">
-      <Filter>Archivos de cabecera</Filter>
+    <ClInclude Include="src\Asteroid.h">
+      <Filter>Game\Asteroid</Filter>
     </ClInclude>
-    <ClInclude Include="Asteroid.h">
-      <Filter>Archivos de cabecera</Filter>
+    <ClInclude Include="src\Ship.h">
+      <Filter>Game\Ship</Filter>
     </ClInclude>
-    <ClInclude Include="Proyectile.h">
-      <Filter>Archivos de cabecera</Filter>
+    <ClInclude Include="src\Proyectile.h">
+      <Filter>Game\Proyectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
