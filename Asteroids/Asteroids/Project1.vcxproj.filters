@@ -43,7 +43,7 @@
     <ClInclude Include="src\Proyectile.h">
       <Filter>Game\Proyectile</Filter>
     </ClInclude>
-    <ClInclude Include="Game.h">
+    <ClInclude Include="src\Game.h">
       <Filter>Game</Filter>
     </ClInclude>
   </ItemGroup>

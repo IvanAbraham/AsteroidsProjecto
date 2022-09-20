@@ -26,8 +26,8 @@
     <ClCompile Include="src\Ship.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Game.h" />
     <ClInclude Include="src\Asteroid.h" />
+    <ClInclude Include="src\Game.h" />
     <ClInclude Include="src\Proyectile.h" />
     <ClInclude Include="src\Ship.h" />
   </ItemGroup>

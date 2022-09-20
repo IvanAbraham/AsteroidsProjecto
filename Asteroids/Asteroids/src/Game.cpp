@@ -1,10 +1,19 @@
 #include "raylib.h"
 
-void StartGame()
+void InitWindow(int Width, int Height)
 {
+
+	InitWindow(Width, Height, "Asteroids");
 
 }
 
-void InitWindow()
+
+void StartGame()
 {
+
+	int screenWidth = 150;
+	int screenHeight = 80;
+
+	InitWindow(screenWidth, screenHeight);
+
 }
