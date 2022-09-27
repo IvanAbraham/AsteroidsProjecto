@@ -1,11 +1,8 @@
 ﻿  Asteroid.cpp
   Game.cpp
+c:\users\administrador\desktop\asteroidsprojecto\asteroids\asteroids\src\game.cpp(1): fatal error C1083: No se puede abrir el archivo incluir: 'raylib.h': No such file or directory
   Main.cpp
   Proyectile.cpp
   Ship.cpp
+c:\users\administrador\desktop\asteroidsprojecto\asteroids\asteroids\src\proyectile.h(2): fatal error C1083: No se puede abrir el archivo incluir: 'raylib.h': No such file or directory
   Generando código...
-Game.obj : error LNK2019: símbolo externo InitWindow sin resolver al que se hace referencia en la función "void __cdecl InitWindow(int,int)" (?InitWindow@@YAXHH@Z)
-Game.obj : error LNK2019: símbolo externo WindowShouldClose sin resolver al que se hace referencia en la función "void __cdecl StartGame(void)" (?StartGame@@YAXXZ)
-Game.obj : error LNK2019: símbolo externo BeginDrawing sin resolver al que se hace referencia en la función "void __cdecl StartGame(void)" (?StartGame@@YAXXZ)
-Game.obj : error LNK2019: símbolo externo EndDrawing sin resolver al que se hace referencia en la función "void __cdecl StartGame(void)" (?StartGame@@YAXXZ)
-C:\Users\Administrador\Desktop\Asteroids\AsteroidsProjecto\Asteroids\x64\Debug\Asteroids.exe : fatal error LNK1120: 4 externos sin resolver
