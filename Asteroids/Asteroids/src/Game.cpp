@@ -24,7 +24,6 @@ void StartGame()
 
 		BeginDrawing();
 
-		EndDrawing();
 	}
 
 }

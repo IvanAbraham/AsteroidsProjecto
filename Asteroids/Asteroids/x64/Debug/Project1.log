@@ -1,0 +1,11 @@
+﻿  Asteroid.cpp
+  Game.cpp
+  Main.cpp
+  Proyectile.cpp
+  Ship.cpp
+  Generando código...
+Game.obj : error LNK2019: símbolo externo InitWindow sin resolver al que se hace referencia en la función "void __cdecl InitWindow(int,int)" (?InitWindow@@YAXHH@Z)
+Game.obj : error LNK2019: símbolo externo WindowShouldClose sin resolver al que se hace referencia en la función "void __cdecl StartGame(void)" (?StartGame@@YAXXZ)
+Game.obj : error LNK2019: símbolo externo BeginDrawing sin resolver al que se hace referencia en la función "void __cdecl StartGame(void)" (?StartGame@@YAXXZ)
+Game.obj : error LNK2019: símbolo externo EndDrawing sin resolver al que se hace referencia en la función "void __cdecl StartGame(void)" (?StartGame@@YAXXZ)
+C:\Users\Administrador\Desktop\Asteroids\AsteroidsProjecto\Asteroids\x64\Debug\Asteroids.exe : fatal error LNK1120: 4 externos sin resolver
