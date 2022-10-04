@@ -1,9 +1,6 @@
 #include "raylib.h"
 #include "Ship.h"
 
-
-
-
 void StartGame()
 {
 
@@ -18,6 +15,8 @@ void StartGame()
 	{
 
 		BeginDrawing();
+
+		DrawShip(player.position, player.size);
 
 	}
 
