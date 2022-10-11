@@ -19,4 +19,4 @@ static Ship player;
 
 void CreatePlayerShip(int swidth, int sheight);
 
-void DrawShip(Vector2 position, Vector2 size);
+void DrawShip(Vector2 &position, Vector2 &size);

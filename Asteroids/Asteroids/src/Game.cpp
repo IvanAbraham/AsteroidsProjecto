@@ -15,7 +15,7 @@ void StartGame()
 	{		
 
 		BeginDrawing();
-
+		
 		ClearBackground(BLACK);
 
 		DrawShip(player.position, player.size);

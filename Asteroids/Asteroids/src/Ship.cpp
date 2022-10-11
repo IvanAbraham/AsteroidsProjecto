@@ -1,6 +1,6 @@
 #include "Ship.h"
 
-void CreatePlayerShip(int swidth, int sheight) const
+void CreatePlayerShip(int swidth, int sheight)
 {
 
 	player.width = swidth / 20.0f;
@@ -21,7 +21,7 @@ void CreatePlayerShip(int swidth, int sheight) const
 
 }
 
-void DrawShip(Vector2 position, Vector2 size)
+void DrawShip(Vector2 &position, Vector2 &size)
 {
 
 	DrawRectangleV(position, size, RED);
