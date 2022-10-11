@@ -8,43 +8,42 @@
     <Filter Include="Game">
       <UniqueIdentifier>{f55c1e83-f21f-4c9e-b224-fe9ca3542036}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\Proyectile">
-      <UniqueIdentifier>{2f129b0c-042a-4669-97cd-c4fc69b2e028}</UniqueIdentifier>
+    <Filter Include="Game\Source">
+      <UniqueIdentifier>{1b536ed8-c377-4cda-83f0-4a4349586c15}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\Asteroid">
-      <UniqueIdentifier>{846f0a08-08b3-413c-888c-dacae67f2320}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Game\Ship">
-      <UniqueIdentifier>{cb20af1b-0e38-409d-acbf-5e4ba111b078}</UniqueIdentifier>
+    <Filter Include="Game\Headers">
+      <UniqueIdentifier>{57060d00-aee9-4373-9e29-13197d4fe340}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Asteroid.cpp">
-      <Filter>Game\Asteroid</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Ship.cpp">
-      <Filter>Game\Ship</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Proyectile.cpp">
-      <Filter>Game\Proyectile</Filter>
+      <Filter>Game\Source</Filter>
     </ClCompile>
     <ClCompile Include="src\Game.cpp">
-      <Filter>Game</Filter>
+      <Filter>Game\Source</Filter>
     </ClCompile>
-    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Proyectile.cpp">
+      <Filter>Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ship.cpp">
+      <Filter>Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Game\Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Asteroid.h">
-      <Filter>Game\Asteroid</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Ship.h">
-      <Filter>Game\Ship</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Proyectile.h">
-      <Filter>Game\Proyectile</Filter>
+      <Filter>Game\Headers</Filter>
     </ClInclude>
     <ClInclude Include="src\Game.h">
-      <Filter>Game</Filter>
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Proyectile.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ship.h">
+      <Filter>Game\Headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 #include "Ship.h"
 
-void CreatePlayerShip(int swidth, int sheight)
+void CreatePlayerShip(int swidth, int sheight) const
 {
 
 	player.width = swidth / 20.0f;

@@ -12,12 +12,18 @@ void StartGame()
 	CreatePlayerShip( screenWidth, screenHeight );
 
 	while (!WindowShouldClose())
-	{
+	{		
 
 		BeginDrawing();
 
+		ClearBackground(BLACK);
+
 		DrawShip(player.position, player.size);
 
+		EndDrawing();
+
 	}
+
+	CloseWindow();
 
 }

@@ -15,7 +15,7 @@ struct Ship
 
 };
 
-Ship player;
+static Ship player;
 
 void CreatePlayerShip(int swidth, int sheight);
 
